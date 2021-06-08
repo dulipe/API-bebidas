@@ -34,6 +34,7 @@ header a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 input {
@@ -64,6 +65,54 @@ button:hover{
     background-color: black;
 }
 
+.resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bebidaInfo {
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: 2px solid black;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+}
+
+.Info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: 2px solid black;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    height: 70vh;
+    width: 50vw;
+    font-size: 20px;
+}
+.Info img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 5px;
+}
+
+
+img {
+    width: 70px;
+    height: 70px;
+}
 
 
 
@@ -84,15 +133,28 @@ button:hover{
         width: 200px;
     }
 
+    .bebidaInfo {
+        width: 50vw;
+    }
+
 }
 
-@media screen and (max-width:330px){
+@media screen and (max-width:425px){
     header {
         width: 100%;
     }
 
     input, button {
         width: 200px;
+    }
+
+    .bebidaInfo {
+        width: 90vw;
+    }
+
+    .Info img {
+        width: 100px;
+        height: 100px;
     }
 
 }

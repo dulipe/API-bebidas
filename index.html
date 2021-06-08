@@ -15,7 +15,11 @@
     </header>
     <div id="input">
         <input type="text" name="bebida" id="bebida" placeholder="Digite uma bebida">
-        <button onclick="search()"><strong>PESQUISAR</strong></button>
+        <button onclick="search(document.querySelector('#bebida').value)"><strong>PESQUISAR</strong></button>
     </div>
+
+    <div class="resultado"></div>
+
+    <script src="index.js"></script>
 </body>
 </html>
