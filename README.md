@@ -1,4 +1,4 @@
-# API-times
+# API-bebidas
 
 * Criei um site de requisição de dados de bebidas
 * Fiz uma requisição de api do site https://www.thecocktaildb.com/
