@@ -135,6 +135,15 @@ img {
 
     .bebidaInfo {
         width: 50vw;
+        font-family: 15px;
+    }
+
+    .Info {
+        height: 100vh;
+    }
+    
+    .resultado {
+        height: 300px;
     }
 
 }
@@ -155,6 +164,11 @@ img {
     .Info img {
         width: 100px;
         height: 100px;
+    }
+
+    .Info {
+        height: 100vh;
+        font-size: 16px;
     }
 
 }
